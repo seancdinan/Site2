@@ -4,6 +4,8 @@
 	Light Red:   #ED5C5F
 	Light Green: #7FF0B6
 */
+
+/* Layout inspired by heckhouse.com*/
 a {
 	text-decoration: none;
 }
@@ -37,7 +39,7 @@ header.opener a {
 	padding: 8px 30px 5px 30px; /* T R B L*/
 	border: 6px solid hsl(160,80%,40%);
 	background-color: hsla(160,40%,40%,0.25);
-	transition: 300ms;
+	transition: 200ms;
 }
 
 header.opener a:hover {
@@ -59,37 +61,31 @@ section#links {
 .one {
 	height: 270px;
 	width: 270px;
-	background-color: transparent;
 }
 
 .two {
 	height: 270px;
 	width: 1080px;
-	background-color: transparent;
 }
 
 .three {
 	height: 540px;
 	width: 380px;
-	background-color: transparent;
 }
 
 .four {
 	height: 270px;
 	width: 380px;
-	background-color: transparent;
 }
 
 .five {
 	height: 405px;
 	width: 590px;
-	background-color: transparent;
 }
 
 .six {
 	height: 540px;
 	width: 270px;
-	background-color: transparent;
 }
 
 /******** Individual Blocks ****************/
@@ -98,105 +94,90 @@ section#links {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	background-image: url(Images/270_270_1.png);
 }
 
 #B {
 	position: absolute;
 	left: 270px;
 	top: 0px;
-	background-image: url(Images/1080_270_1.png);
 }
 
 #C {
 	position: absolute;
 	left: 1350px;
 	top: 0px;
-	background-image: url(Images/270_270_2.png);
 }
 
 #D {
 	position: absolute;
 	left: 1620px;
 	top: 0px;
-	background-image: url(Images/270_270_3.png);
 }
 
 #E {
 	position: absolute;
 	left: 0px;
 	top: 270px;
-	background-image: url(Images/380_540_1.png);
 }
 
 #F {
 	position: absolute;
 	left: 380px;
 	top: 270px;
-	background-image: url(Images/270_270_4.png);
 }
 
 #G {
 	position: absolute;
 	left: 650px;
 	top: 270px;
-	background-image: url(Images/590_405_1.png);
 }
 
 #H {
 	position: absolute;
 	left: 1240px;
 	top: 270px;
-	background-image: url(Images/270_270_5.png);
 }
 
 #I {
 	position: absolute;
 	left: 1510px;
 	top: 270px;
-	background-image: url(Images/380_540_2.png);
 }
 
 #J {
 	position: absolute;
 	left: 0px;
 	top: 810px;
-	background-image: url(Images/270_270_6.png);
 }
 
 #K {
 	position: absolute;
 	left: 270px;
 	top: 810px;
-	background-image: url(Images/380_270_1.png);
 }
 
 #L {
 	position: absolute;
 	left: 380px;
 	top: 540px;
-	background-image: url(Images/270_270_7.png);
 }
 
 #M {
 	position: absolute;
 	left: 650px;
 	top: 675px;
-	background-image: url(Images/590_405_2.png);
 }
 
 #N {
 	position: absolute;
 	left: 1240px;
 	top: 540px;
-	background-image: url(Images/270_540_1.png);
 }
 
 #P {
 	position: absolute;
 	left: 1510px;
 	top: 810px;
-	background-image: url(Images/380_270_2.png);
 }
 
 
